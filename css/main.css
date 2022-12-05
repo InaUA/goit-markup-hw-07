@@ -1,11 +1,3 @@
-:root {
-  --pimary-text-color: #212121;
-  --text-color: #757575;
-  --accent-color: #2196F3;
-  --white-color: #ffffff;
-  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1) ;
-}
-
 h1,
 h2,
 h3,
@@ -49,6 +41,14 @@ textarea {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+:root {
+  --pimary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196F3;
+  --white-color: #ffffff;
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 body {
