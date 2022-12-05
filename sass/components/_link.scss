@@ -1,0 +1,104 @@
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: color 250ms var(--cubic-bezier);
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+                           
+}
+
+
+
+
+
+
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+.team-soc__link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+    transition: background-color 250ms var(--cubic-bezier), fill 250ms var(--cubic-bezier);
+    &:hover,
+       &:focus {
+            background-color: #2196F3;
+            fill: #ffffff;
+        }
+    
+        
+}
+
+
+.clients-list__link {
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+
+    border-color: #AFB1B8;
+    transition: border-color 250ms var(--cubic-bezier);
+    &:hover,
+        &:focus {
+            border-color: var(--accent-color);
+        }
+    
+        
+}
+
+
+.contact-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms var(--cubic-bezier);
+&:hover,
+    &:focus {
+        color: var(--white-color);
+    }
+}
+
+.footer-links {
+
+
+    margin-left: 70px;
+}
+.foot-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms var(--cubic-bezier);
+    &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+        }
+}
+

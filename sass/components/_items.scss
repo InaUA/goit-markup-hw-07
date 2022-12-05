@@ -1,0 +1,63 @@
+.team-soc__item {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.projects-item {
+    background-color: var(--white-color);
+    flex-basis: calc((100% - 60px) / 3);
+    display: block;
+   
+}
+
+.clients-list__item {
+    width: 170px;
+    height: 92px;
+}
+.border {
+    padding: 20px 24px;
+    border-radius: 1px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+
+}
+.footer-items {
+    margin-bottom: 9px;
+    &:last-child {
+            margin-bottom: 0;
+        }
+}
+
+
+.foot-soc-item {
+    width: 44px;
+    height: 44px;
+
+}
+.current {
+    position: relative;
+    color: var(--accent-color);
+&::after {
+        display: block;
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 4px;
+        background-color: #2196F3;
+        left: 0;
+        border-radius: 2px;
+        bottom: -1px;
+    }
+
+
+}
+
+.part {
+    margin-left: auto;
+
+}
+
+
+
